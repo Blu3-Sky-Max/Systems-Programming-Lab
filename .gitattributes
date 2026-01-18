@@ -1,0 +1,3 @@
+C/**/Makefile linguist-detectable=false
+*.o linguist-detectable=false
+*.mp4 linguist-documentation=true
