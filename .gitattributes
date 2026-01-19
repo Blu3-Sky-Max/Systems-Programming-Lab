@@ -1,3 +1,5 @@
-C/**/Makefile linguist-detectable=false
-*.o linguist-detectable=false
-*.mp4 linguist-documentation=true
+**/Makefile linguist-vendored
+*.o linguist-vendored
+*.mp4 linguist-documentation
+*.jpeg linguist-documentation
+*.png linguist-documentation
