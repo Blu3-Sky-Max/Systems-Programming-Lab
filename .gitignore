@@ -1,8 +1,20 @@
+
 *.o
+**/*.o
+
 **/usman
 **/Topboy
 **/Student-Billing-System
-**/Recursive
-**/Recursive1
+**/Hollow_Square
+**/House-Renovation
+**/Rocket-Mar_cpp
+**/Student-Register-System
+**/Text-Based-RPG
+**/Vector-Memory-Management
+**/Recursive*
 **/rescurive2
 **/poppp
+**/popp
+
+# Ignore OS junk
+.DS_Store
