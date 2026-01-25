@@ -1,4 +1,4 @@
-#!/bin/bash
+##!/bin/bash
 # Author : usman O. Olanrewaju (Blu3 Sky) 
 # Date: 2026/01/24
 # Title: How to part and mount ==============================================================================
@@ -73,14 +73,14 @@
 #### 🖼️ Lab Evidence
 
 #### 1. Disk Partitioning with Parted
-#![Storage-Management1](https://github.com/user-attachments/assets/8a6afa10-b71e-41eb-b9fb-35adb2f14c47)
+![Storage-Management1](https://github.com/user-attachments/assets/8a6afa10-b71e-41eb-b9fb-35adb2f14c47)
 
 #### 2. File System & UUID Identification
-#![Storage-Management1](https://github.com/user-attachments/assets/8a741a9f-3a7c-4281-bd30-6d85fdcf4c2f)
+![Storage-Management1](https://github.com/user-attachments/assets/8a741a9f-3a7c-4281-bd30-6d85fdcf4c2f)
 
 
 #### 3. Persistent Mount Configuration (/etc/fstab)
-#![Storage-Management1](https://github.com/user-attachments/assets/8a6afa10-b71e-41eb-b9fb-35adb2f14c47)
+![Storage-Management1](https://github.com/user-attachments/assets/8a6afa10-b71e-41eb-b9fb-35adb2f14c47)
 #
 #
 #
