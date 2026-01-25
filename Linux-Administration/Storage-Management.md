@@ -75,11 +75,11 @@
 #
 ### 🖼️ Lab Evidence
 
-### 1. Disk Partitioning with Parted
+#### 1. Disk Partitioning with Parted
 ![Partitioning Process](Images-Videos/storage-management.jpeg)
 
-### 2. File System & UUID Identification
+#### 2. File System & UUID Identification
 ![lsblk Output](Images-Videos/Storage-Management1.jpeg)
 
-### 3. Persistent Mount Configuration (/etc/fstab)
+#### 3. Persistent Mount Configuration (/etc/fstab)
 ![fstab configuration](Images-Videos/Storage-management-fstab.jpeg)
