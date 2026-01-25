@@ -32,7 +32,10 @@ I tested the mount configuration without rebooting by unmounting the drive and r
 sudo umount /data
 sudo mount -a
 lsblk -f
-### 🖼️ Lab Evidence
+ ```
+
+
+###  🖼️ Lab Evidence
 
 #### 1. Disk Partitioning with Parted
 ![Partitioning Process](Images-Videos/storage-management.jpeg)
