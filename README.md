@@ -12,10 +12,15 @@ This is my primary laboratory where I document my progress from **Foundations** 
 Projects developed during my **1st Year, 2nd Semester**. This module focuses on object-oriented architecture and algorithmic problem-solving.
 - **Milestones:** Manual Heap memory management, Constructor Overloading, and Arithmetic pattern generation.
 - **Language:** C++17.
+
+### [📁 Linux Administration](./Linux-Administration)
+Focuses on enterprise-level system management. 
+- **Lab 01:** Storage Management (Partitioning, File Systems, and Persistent Mounting).
+
 ---
 ## 🛠️ Upcoming Research:
 - **Bash:** Linux automation and shell optimization.
-- **RHCSA:** Enterprise-level Linux administration and security.
+
 
 **Author:** Usman O. Olanrewaju (Blu3 Sky)  
 **Hardware:** Framework 13 (Fedora)
