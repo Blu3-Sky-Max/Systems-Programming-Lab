@@ -47,3 +47,19 @@ lsblk -f
 ![fstab configuration](Images-Videos/Storage-management-fstab.jpeg)
 #
 #
+
+
+## Case 2: Box Storage (VirtualBox Disk)
+
+Before partitioning, a secondary virtual disk was attached via VirtualBox settings.
+
+### 📸 VirtualBox storage configuration:  
+![VirtualBox Setup](Images-Videos/Vbox-Disk-Setup.jpeg)
+
+The disk appeared inside the guest as a new block device.
+
+### 📸 Disk identification using lsblk:  
+![Disk identification](Images-Videos/vbox-mounting.jpeg)
+
+### 📸 Persistent Mount Configuration
+![vbox persistence](Images-Videos/Vbox-persistence.jpeg)
