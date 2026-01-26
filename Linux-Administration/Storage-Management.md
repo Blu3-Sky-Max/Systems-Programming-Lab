@@ -24,7 +24,7 @@ I used the `parted` utility for low-level partitioning.
 To ensure the drive mounts automatically on system boot, I added the **UUID** of the partition to the `/etc/fstab` configuration file.
 
 **Configuration Format:**
-`UUID=23457549492 /data xfs defaults 0 0`
+`UUID=f24fd142-6bdd-4b9e-9941-2fc584dd53e3   /data xfs defaults 0 0`
 
 ### 4. Verification
 I tested the mount configuration without rebooting by unmounting the drive and running the mount-all command:
