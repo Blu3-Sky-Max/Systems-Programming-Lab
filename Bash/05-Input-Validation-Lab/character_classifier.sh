@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 # Blu3 Sky
-read -r -n 2 -p "Enter just one character:  " u;
+read -r -n 2 -p "Enter just two character:  " u;
 printf "\n" # or just put "echo or echo "" " both will give you space or printf "\n"   
 
 case $u  in 
