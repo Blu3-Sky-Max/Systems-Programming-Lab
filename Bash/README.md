@@ -9,9 +9,9 @@ This directory documents my proficiency in shell scripting, ranging from foundat
 - **Focus:** Generating automated HTML system telemetry reports (Uptime, Disk, etc.).
 
 ### [02. Interactive Tools](./02-Interactive-Tools)
-- **Tools:** `system_dashboard.sh`, `admin_helper.sh`
-- **Focus:** Building user-friendly CLI interfaces using `while` loops, `Heredocs`, and the `select` built-in.
-- **Evidence:** ![Dashboard Demo](./Images-Videos/system_dashboard.sh.jpeg)
+- **Tools:** `system_dashboard.sh`, `admin_helper.sh`, `array_manipulation_interactive_lab.sh`
+- **Focus:** Building user-friendly CLI interfaces using `while`,`for` loops, `Heredocs`,`Array`,`Case` and the `select` built-in.
+
 
 ### [03. Automation Research](./03-Automation-Research)
 - **Tool:** `variable_scope.sh`
