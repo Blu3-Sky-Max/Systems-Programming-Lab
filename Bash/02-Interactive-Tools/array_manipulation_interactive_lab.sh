@@ -34,7 +34,7 @@ echo
 echo "slicing array from the back(5) and picking 3 numbers towards ending: "  ${array1[*]} ; echo 
 PS3="Do you want to Reset Yes or No?" 
 select usman in yes no; do 
-	case $REPLY in	
+	case $usman in	
 		1|yes|Yes|YES)	
 			unset arr     
 			echo "we reseting our array now  we have:" ${arr[*]} 
