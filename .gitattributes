@@ -3,3 +3,13 @@
 *.mp4 linguist-documentation
 *.jpeg linguist-documentation
 *.png linguist-documentation
+ 
+# Force Header files to count as C (This balances C vs C++)
+*.h linguist-language=C
+*.c linguist-language=C
+
+# Force Bash scripts to be counted as Shell
+*.sh linguist-language=Shell
+
+# Ensure C++ files are labeled correctly
+*.cpp linguist-language=C++
