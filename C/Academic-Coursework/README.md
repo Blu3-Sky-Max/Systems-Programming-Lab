@@ -11,12 +11,6 @@ This project was developed during my **1st Year of Computer Engineering**. It is
 - **C Programming:** Input validation, data structures (structs), and formatted output.
 - **Linux Systems:** Leveraging the `/usr/local/bin` hierarchy to turn a project into a system-wide command.
 - **Build Automation:** Managing compilation flags and installation paths via a Makefile.
-
-### 📺 Billing System Demo
-*(Click the video below to see the logic in action)*
-
-![Student Billing System](../Images-Videos/Student_Billing_System.mp4)	
-
 ---
 **Author:** Usman O. Olanrewaju (Blu3 Sky)
 **Context:** 1st Year Academic Project | Altınbaş University
