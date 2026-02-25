@@ -1,5 +1,9 @@
 #!/bin/bash 
 
+# Author: Usman O. Olanrewaju (Blu3 sky) 
+# Date: 2026/02/16 
+# Title: setup_users.sh 
+
 if [ "$#" -lt 3 ]; then
     echo "Usage: $0 <username1> <username2> <username3>"
     exit 1
