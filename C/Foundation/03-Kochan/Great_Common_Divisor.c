@@ -5,7 +5,8 @@ Euclidean algorithm
 
 Helps to find the greatest common divisor(gcd)  between two non-negative integer values 
 
-usage: gcc Great_Common_Divisor.c 
+usage: gcc Great_Common_Divisor.c ; ./a.out 
+ 
 */ 
 
 int main() { 
@@ -22,7 +23,7 @@ result = i % j ;
   j= result;  
 } 
 
- printf("The greatest common  divisor of this number is: %d\n", i) ; 
+ printf("The greatest common  divisor of these numbers is: %d\n", i) ; 
 
 
 
