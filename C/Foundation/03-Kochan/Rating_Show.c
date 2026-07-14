@@ -10,7 +10,7 @@ int main()
     
     // without curly braces { }, a loop's body is only the single next statement.
     for ( i=1; i < 11; i++) 
-        rating[i] = 0; // so the loop only works for this 
+        rating[i] = 0;  
     
         
         printf("Enter the number of your rating [1-10]: "); 
