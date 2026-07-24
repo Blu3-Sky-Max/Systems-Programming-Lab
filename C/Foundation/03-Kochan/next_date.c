@@ -1,0 +1,86 @@
+#include <stdio.h> 
+#include <stdbool.h> 
+
+/* How date is be rotated and how it works */ 
+
+
+
+struct date { 
+    int month, 
+     year,
+     day; 
+}; 
+
+
+int Number_Of_Days(struct date d){ 
+    
+    
+    int days;
+    
+    bool Leap_year(struct date d); 
+    
+    const int days_per_month [12]={ 31, 28,31,30,31,30,31,31,30,31,30,31 }; 
+      
+    if ( Leap_year(d)== true && d.month  == 2)
+    days=29; 
+    else
+    days=days_per_month[ d.month - 1 ];
+    
+    return days ; 
+    
+    
+    
+} 
+bool Leap_year(struct date d){ 
+ 
+     bool Leap_year_flag=true; 
+     
+  if ( (d.year %4 ==0 && d.year % 100 !=0 ) || d.year % 400 ==0 )
+         Leap_year_flag=true;
+    else 
+         Leap_year_flag=false; 
+    
+    return Leap_year_flag;
+} 
+
+
+
+
+int main(void){ 
+    
+    struct date today, tomorrow; 
+     
+    printf ("Enter today's date (dd mm year): ");
+    scanf("%d %d %d",&today.day,&today.month,&today.year);
+   
+   if ( today.day > 31 || today.month > 12 ){ 
+       printf("Enter a vaild day,month and year\n");
+       return 2;
+   } 
+    
+    
+    if ( today.day != Number_Of_Days(today) ){ 
+        tomorrow.day=today.day + 1; 
+        tomorrow.month=today.month; 
+        tomorrow.year=today.year; 
+    } 
+    else 
+    if (today.month == 12 ){ 
+        tomorrow.day=1; 
+        tomorrow.month=1;
+        tomorrow.year=today.year + 1;
+        
+    } 
+    else{  
+     tomorrow.day=1;
+     tomorrow.month=today.month +1; 
+     tomorrow.year=today.year; 
+    } 
+    
+    printf("tomorrow's date is %i-%i-%i\n",tomorrow.day,tomorrow.month, tomorrow.year); 
+    
+    
+       
+    
+     
+} 
