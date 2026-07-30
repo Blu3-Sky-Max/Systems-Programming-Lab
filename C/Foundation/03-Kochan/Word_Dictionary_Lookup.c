@@ -38,7 +38,7 @@ int Look_up(const struct entry real_word_dict[], const char user_input[], const 
 
 int main (){ 
     char user_input[20]; 
-     int enteries=3; 
+    const int enteries=3; 
      int output=0; 
 struct entry real_word_dict[3]= {  { "usman" , "The most powerful man in the word"}, 
                                 { "hollow", "to bless consecrate" },
@@ -47,7 +47,11 @@ struct entry real_word_dict[3]= {  { "usman" , "The most powerful man in the wor
 } ; 
 
   printf("Enter the words you want to search for: "); 
-  scanf("%s",user_input); 
+  /*  added 19 to prevent overflowing and handle 
+  user_input max 19 and '\0' to make it 20 which 
+  is in the array  */ 
+
+  scanf("%19s",user_input); 
   output = Look_up(real_word_dict,user_input,enteries); 
   
   if (output != -1)
