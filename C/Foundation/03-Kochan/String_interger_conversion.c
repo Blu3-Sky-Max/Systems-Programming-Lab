@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 
@@ -25,6 +26,7 @@ void convert_interger_to_string(int input, char result[]){
      int holder; 
      for (; input != 0 ; i++){ 
          holder= input % 10; 
+         // add + 48 makes it a char '0' is 48; 
          result[i]= holder + '0'; 
           input = input /10; 
           
@@ -56,13 +58,13 @@ while ( j < i -1 ){
 int main()
 {
   
-  char arr[4]; 
+  char arr[20]; 
   
-  convert_interger_to_string(123454,arr); 
+  convert_interger_to_string(1234054,arr); 
   
  
   printf ("%s\n",arr);
-  printf("%i\n",converter_string_to_interger ("902")); 
+  printf("%i",converter_string_to_interger ("902")); 
   
 } 
 
