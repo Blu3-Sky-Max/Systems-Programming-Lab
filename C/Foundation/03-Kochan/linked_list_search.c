@@ -1,5 +1,11 @@
 #include <stdio.h>
-
+/* 
+ * Builds a singly linked list of three struct values nodes (n1 -> n2 -> n3)
+ *  with x = 300, 400, 100 respectively, terminated by a NULL next pointer.
+ *  Prompts the user for an integer, then calls consideration() to traverse
+ *  the list and search for a node whose x member matches the input.
+ *  Prints the value if found, otherwise reports that it wasn't found.
+ */
 
 struct values {
 	int x;
