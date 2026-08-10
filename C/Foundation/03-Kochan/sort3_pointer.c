@@ -1,6 +1,6 @@
 #include <stdio.h> 
 
- // sorting interger without an array  
+ // sorting integer without an array  
  
 void Sort3(int *input1, int*input2, int * input3){ 
      int holder;  
