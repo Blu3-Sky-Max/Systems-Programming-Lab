@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 
-// convert character to interger; 
-int converter_string_to_interger( char input[]){ 
+// convert character to integer; 
+int converter_string_to_integer( char input[]){ 
   
   int holder, result=0; 
   for (int i=0; input[i]  >= '0' && input[i] <='9'; i++) {
       
-    // you conver input char to interger by input  - '0'(value is 48)
+    // you convert input char to integer by input  - '0'(value is 48)
     holder=input[i] - '0'; 
     
     result= result * 10 + holder; 
@@ -18,8 +18,8 @@ int converter_string_to_interger( char input[]){
     
 } 
 
-// convert interget to a string
-void convert_interger_to_string(int input, char result[]){
+// convert integer to a string
+void convert_integer_to_string(int input, char result[]){
     
     int i=0; 
     
@@ -60,11 +60,11 @@ int main()
   
   char arr[20]; 
   
-  convert_interger_to_string(1234054,arr); 
+  convert_integer_to_string(1234054,arr); 
   
  
   printf ("%s\n",arr);
-  printf("%i",converter_string_to_interger ("902")); 
+  printf("%i",converter_string_to_integer ("902")); 
   
 } 
 
