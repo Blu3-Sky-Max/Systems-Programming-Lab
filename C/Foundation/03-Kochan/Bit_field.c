@@ -1,6 +1,6 @@
 #include <stdio.h> 
 
-/* these program helps to understand how to assign bit to integer
+/* this program helps to understand how to assign bit to integer
    and manage memory usage. 
    
    Note: you can't assigned a bit to other data type than integer
