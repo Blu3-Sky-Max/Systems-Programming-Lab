@@ -52,8 +52,10 @@ int main (){
     
     struct asigning_bit packed_data= { 31, 3.3, 1023, -3, 19,"usman", 'W'} ; 
     
+    struct asigning_bit *ptr_handler=&packed_data;
     
-    printf("%u  %u %u  %e %s %c \n"  , packed_data.x, packed_data.type, packed_data.reserved, packed_data.y, packed_data.arr, packed_data.a); 
+    printf("%u  %u %u  %e %s %c \n"  , ptr_handler->x, ptr_handler->type, 
+    ptr_handler->reserved, ptr_handler->y, ptr_handler->arr, ptr_handler->a); 
     
     
     
