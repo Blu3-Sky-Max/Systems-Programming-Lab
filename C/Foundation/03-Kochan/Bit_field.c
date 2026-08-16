@@ -54,7 +54,7 @@ int main (){
     
     struct asigning_bit *ptr_handler=&packed_data;
     
-    printf("%u  %u %u  %e %s %c \n"  , ptr_handler->x, ptr_handler->type, 
+    printf("%u  %u %u  %e %s %c \n"  , ptr_handler->x, ptr_handler->type, \ 
     ptr_handler->reserved, ptr_handler->y, ptr_handler->arr, ptr_handler->a); 
     
     
