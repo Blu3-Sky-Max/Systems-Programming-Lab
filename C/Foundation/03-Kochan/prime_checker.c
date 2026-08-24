@@ -29,9 +29,9 @@ int main()
 {
     int User;  
     printf("%s","Enter a number: ");
-    scanf("%i", &User);
+   
     
-    if ( __prime(User) == true )
+    if ( scanf("%i", &User) == 1 &&  __prime(User) == true )
       printf("it's a prime sir \n "); 
       else 
       
