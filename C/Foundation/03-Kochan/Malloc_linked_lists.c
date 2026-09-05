@@ -13,12 +13,25 @@
 #define reset "\033[0m" 
 
 FILE * __OUTPUT_CLI_MALO; 
+ 
 struct __control{ 
 
    int input; 
    struct __control * __next_node; 
 
-}; 
+};
+ 
+ /* changing the values of second input here , just to have fun  */ 
+
+void  * change_input(int  * const  values_to_change){ 
+  
+ 
+    *values_to_change=490 ;
+ 
+  
+
+
+}  
 
 
 struct __control *new_entry(struct __control *__passed, const char * __terminal_input) { 
@@ -32,6 +45,7 @@ struct __control *new_entry(struct __control *__passed, const char * __terminal_
   while (__passed -> __next_node != NULL) 
      __passed=__passed -> __next_node; 
 
+/* then when it break we add a single size of struct to it */ 
    
 struct __control  *  __new_input = malloc(sizeof(struct __control)); 
 
@@ -62,6 +76,8 @@ __OUTPUT_CLI_MALO=fopen("/home/blue/__Output_mallo" , "w+");
 
 
 _first_.input=_second_.input=70, _third_.input=85; 
+
+  change_input(&_second_.input); 
 
 
 // user to enter the new entry input on terminal; 
